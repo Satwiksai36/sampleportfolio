@@ -1,16 +1,142 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built to showcase projects, skills, experience, and educational background. Designed with a clean UI and smooth user experience, this portfolio serves as a personal brand and professional presence on the web.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎨 Modern and responsive design
+- 👨‍💻 Hero section with introduction
+- 📝 About section
+- 🛠 Skills showcase
+- 💼 Experience section
+- 🎓 Education section
+- 🚀 Projects gallery
+- 📬 Contact section
+- 📄 Downloadable resume
+- ⚡ Fast and lightweight using Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Vite**
+- **JavaScript**
+- **CSS3**
+- **HTML5**
+
+---
+
+## 📂 Project Structure
+
+```text
+sampleportfolio/
+│
+├── public/
+│   ├── images/
+│   └── resume.pdf
+│
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Education.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Footer.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── Loader.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Projects.jsx
+│   │   └── Skills.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Satwiksai36/sampleportfolio.git
+```
+
+### Navigate to the project directory
+
+```bash
+cd sampleportfolio
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Sections Included
+
+- Home
+- About
+- Skills
+- Experience
+- Education
+- Projects
+- Contact
+
+---
+
+## 🎯 Purpose
+
+This portfolio website is created to:
+
+- Showcase projects and achievements
+- Highlight technical skills
+- Present professional experience
+- Provide an easy way for recruiters and clients to connect
+
+---
+
+## 🤝 Contributing
+
+Contributions and suggestions are welcome. Feel free to fork the repository and submit pull requests.
+
+---
+
+## 👨‍💻 Author
+
+**Satwik Sai**
+
+- GitHub: https://github.com/Satwiksai36
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ If you like this project, don't forget to give it a star!
